@@ -2,7 +2,7 @@
 layout: 	default
 title:  	Baby's First Blog!!!
 date:   	2020-09-05
-categories: 	Posts
+categories: Posts
 author: 	Jordan
 permalink: 	/cappuccino-airwaves
 ---
