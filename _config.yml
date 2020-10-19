@@ -3,3 +3,4 @@ description: Home of the various blogs of Jordan the Blog Poster!!!
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+permalink: pretty

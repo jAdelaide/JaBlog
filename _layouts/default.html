@@ -34,26 +34,29 @@
       <div class="inner clearfix">
         <section id="main-content">
 	  <h1>{{ page.title }}</h1>
-	  <h4>{{ page.date | date: "%-d %B %Y" }}</h4>
+	  <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
           {{ content }}
         </section>
 
         <aside id="sidebar">
     <form>
         <a href="https://github.com/jAdelaide">
-          <img src="/assets/images/adventure-cat.png" width="130">
+          <!-- <img src="/assets/images/adventure-cat.png" width="130"> -->
+          <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/adventure-cat.png" width="130">
         </a>
     </form>
 
     <form>
       <a href="https://www.linkedin.com/in/jordan-adelaide-51a070152">
-          <img src="/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="100">
+          <!-- <img src="/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="100"> -->
+          <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="100">
       </a>
     </form>
 
+                  <!-- # Say the blog is hosted by me (GH username) under buttons
           {% if site.github.is_project_page %}
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-          {% endif %}
+          {% endif %} -->
 
         </aside>
       </div>

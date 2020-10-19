@@ -2,9 +2,9 @@
 layout: home
 ---
 
-# Blogs:
+# Posts:
 
 {% for post in site.posts %}
-<li><a style="{% if page.url == post.url %}color:orange;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
+<li><b><a style="color:darkorchid" href="/-JaBlog-{{ post.url }}">{{ post.title }}</a></b></li>
 {% endfor %}
 
