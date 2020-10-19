@@ -7,7 +7,7 @@ author:     Jordan
 permalink:  virtual-madhouse
 ---
 
-## Despite graduating from the course and passing my AWS certifcation, I have still barely scratched the surface of the tech world and, even if I hadn't, this world progresses so quickly that even when you do reach a high level you need to keep moving to not be left behind. Luckily, especially in the midsts of Covid, there are many virtual events to help you progress and stay up to date. This post is about the one today: Modern Application Development by Amazon Web Services!
+## Despite graduating from the course and passing my AWS certification, I have still barely scratched the surface of the tech world and, even if I hadn't, this world progresses so quickly that even when you do reach a high level you need to keep moving to not be left behind. Luckily, especially in the midsts of Covid-19, there are many virtual events to help you progress and stay up to date. This post is about the one today: Modern Application Development by Amazon Web Services!
 
 I have been to a few other virtual days like today since graduating the course (including an introduction to SCRUM from Generation and the NetZero Skills Summit sponsored by the National Grid) but this was by far the fastest paced out of the and also included the most new technology out of them! There were 3 streams of talks to choose from and other than a CI/CD session on the Enterprise Architect stream, all of my selections were for the Building Applications stream.
 
