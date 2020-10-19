@@ -5,6 +5,6 @@ layout: home
 # Blogs:
 
 {% for post in site.posts %}
-<li><a style="color:darkorchid" href="{{ post.url }}">{{ post.title }}</a></li>
+<li><b><a style="color:darkorchid" href="{{ post.url }}">{{ post.title }}</a></b></li>
 {% endfor %}
 
