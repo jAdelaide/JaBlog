@@ -19,7 +19,7 @@ The final session before the Office Hours FAQ at the end was on Identity Federat
 
 Well that was a big one! The sessions went so fast it didn't seem like we'd covered all that much but clearly that impression wasn't entirely accurate. If only they could have made school seem really quick while we covered a lot and left the days that feel like forever for the things you could happily spend forever learning about and developing your skills in but only have one day for...
 
-Now my blog is officially published and isn't just a self hosted thing anymore I expect the next post will be about how easy it is to learn web development via trial and error so I'll see you there,
+Now my blog is officially published and isn't just a self hosted thing anymore I expect the next post will be about how easy it is to learn web development via trial and error, I'll see you there,
 
 ¡JaBlog!
 
