@@ -4,7 +4,7 @@ title:  	AWS certified!
 date:   	2020-10-04
 categories: Posts Certification
 author: 	Jordan
-permalink: 	/rainbow-panda
+permalink: 	/-JaBlog-/rainbow-panda
 ---
 
 
