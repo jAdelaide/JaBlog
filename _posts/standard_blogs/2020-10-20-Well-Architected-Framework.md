@@ -20,3 +20,6 @@ There are 5 pillars to the Well-Architected Framework which are the areas it wil
     -everything fails at some point, you may as well design it to bounce back quickly
 - It will help you perform well and deliver a better experience to your customers
 - It will help your infrastructure provide you the best value for your money
+
+There's also a free Well-Architected tool available on AWS that makes it easy to go through and evaluate your existing framework, meaning that you don't need to be an expert or hire one to do it for you!
+
