@@ -23,3 +23,8 @@ There are 5 pillars to the Well-Architected Framework which are the areas it wil
 
 There's also a free Well-Architected tool available on AWS that makes it easy to go through and evaluate your existing framework, meaning that you don't need to be an expert or hire one to do it for you!
 
+The bulk of this session was actually going over what actually happens in a business meeting to review the framework. This was broken down into the 3 steps as follows:
+
+### this is three
+#### this is four
+
