@@ -36,3 +36,8 @@ Once you've had the meeting, share the report with the stakeholders. There will 
 
 It is the AWS Well-Architected Framework, but it isn't just limited to AWS! It was written with AWS in mind though so while you're free to use it while using other systems, you may need to do some extra research into the tools and AWS specific things that it suggests.
 
+Despite this juts being a post about the session today, I have actually had to jump quite deep into the Sass file (CSS) to edit the sidebar as I had to edit the size anyway to fit the description in and not just 2 buttons and figured while I'm here I may as well do a bunch of the formatting that I wanted to do anyway. Expect more details about my journey learning all the ways not to work with frontend development in (probably) the next blog and until then, as always:
+
+¡JaBlog!
+
+[back](./)
