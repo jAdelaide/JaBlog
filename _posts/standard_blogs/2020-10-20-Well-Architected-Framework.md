@@ -1,5 +1,5 @@
 ---
-layout: 	default
+layout: 	wAFPost
 title:  	Well-Architected Framework
 date:   	2020-10-20
 categories: Posts
