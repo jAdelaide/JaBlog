@@ -25,6 +25,11 @@ There's also a free Well-Architected tool available on AWS that makes it easy to
 
 The bulk of this session was actually going over what actually happens in a business meeting to review the framework. This was broken down into the 3 steps as follows:
 
-### this is three
-#### this is four
+#### Prepare
+The first step of anything that you want to do well is to plan how you're going to do it. To prepare for a Well-Architected Framework review, you first need to make sure that you've invited a mix of everyone involved, this includes everyone in the who's either giving requirements for, building or using the infrastructure as they'll all have different views on it as a whole and different priorities for what it should do well and ideally you want to satisfy as many of these as you can as early on as possible. It's also important to set the tone of the meeting as a safe space where negatives aren't bad things that everyone shouts at Kyle for, there will definitely be negatives in your framework and you should be open enough to discuss these productively to determine how to turn them into positives. The last point in the preparation stage is to do you homework, make sure you (and as many people in the meeting as possible) have read the white papers before hand and try to have an idea of what's going to be covered and what questions are going to come up so as much of this can be thought of and dealt with beforehand and not waste the precious little bit of concentration everyone has on thinking time.
 
+#### Execute
+You know those important people that were invited during your planning? Make sure they actually turn up and if for some reason a team doesn't show up/is late, you can always postpone the section of the meeting relating to them until they are available. Once the meeting is going, you need to be decisive and lead the meeting, not everyone is going to agree with every point so it's fine to compromise or just select the overall best option, you just need to move on at some point and don't want to spend the whole meeting on the first point. As well as moving it along, part of leading the review is also making sure everyone stays on track! You want to spend less time in meetings so everyone can spend more time doing their actual job.
+
+#### Follow up
+Once you've had the meeting, share the report with the stakeholders. There will be high risk issues in your existing infrastructure but that's ok, what isn't ok is pretending there aren't or playing them down and not actually dealing with them. 
