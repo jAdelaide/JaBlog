@@ -15,9 +15,9 @@ There are 5 pillars to the Well-Architected Framework which are the areas it wil
 
 - It makes it easy to evolve and maintain the infrastructure in the future
 - It's secure and will help you meet compliance requirements
-    -use [AWS Artifact](https://aws.amazon.com/artifact/) for access and help regarding these
+  - use [AWS Artifact](https://aws.amazon.com/artifact/) for access and help regarding these
 - It will allow you to robustly handle failure and continue providing for your customers
-    -everything fails at some point, you may as well design it to bounce back quickly
+  - everything fails at some point, you may as well design it to bounce back quickly
 - It will help you perform well and deliver a better experience to your customers
 - It will help your infrastructure provide you the best value for your money
 
