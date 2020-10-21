@@ -2,6 +2,18 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
+// Custom sidebar formatting for repositioned on mobiles
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px)
+{
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
@@ -27,8 +39,9 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  // background: #d17dd1 url(https://raw.githubusercontent.com/jAdelaide/-JaBlog-/shove/assets/images/header__01.jpg) 0 0 repeat-x;
+  background: #b681b6 url(https://raw.githubusercontent.com/jAdelaide/-JaBlog-/shove/assets/images/header__01.jpg) 0 0 repeat-x;
+  border-bottom: solid 2px #a11f90;
 }
 
 header h1 {

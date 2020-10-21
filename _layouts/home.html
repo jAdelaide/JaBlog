@@ -13,7 +13,8 @@
 
 {% seo %}
   </head>
-
+        <!-- Toggles JaBlog mobile in header -->
+  <div id="content-desktop">
   <body>
     <header>
       <div class="inner">
@@ -23,6 +24,19 @@
         <h2 style="color:lightblue">{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
+  </div>
+
+  <div id="content-mobile">
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+           <h1 style="color:white">{{ site.title | default: site.github.repository_name }} mobile</h1>
+        </a>
+        <h2 style="color:lightblue">{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+  </div>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
@@ -45,16 +59,28 @@
     {% endif %}
   </body>
   
-  <form style="float: right; margin-top: -230px">
-    <a href="https://github.com/jAdelaide">
-      <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/adventure-cat.png" width="200">
-    </a>
+ <div id="content-desktop">
+ <form style="float: right; margin-top: -230px">
+   <a href="https://github.com/jAdelaide">
+     <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/adventure-cat.png" width="200">
+   </a>
 
-    <a href="https://www.linkedin.com/in/jordan-adelaide-51a070152">
-      <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="150">
-    </a>
-  </form>
+   <a href="https://www.linkedin.com/in/jordan-adelaide-51a070152">
+     <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="150">
+   </a>
+ </form>
+ </div>
 
+ <div id="content-mobile">
+ <form style="float: right">
+   <a href="https://github.com/jAdelaide">
+     <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/adventure-cat.png" width="180">
+   </a>
 
+   <a href="https://www.linkedin.com/in/jordan-adelaide-51a070152">
+     <img src="https://raw.githubusercontent.com/jAdelaide/-JaBlog-/main/assets/images/linkedin-businessman-meeting-online-job-fair-1445953-pxhere.com_.jpg" height="120">
+   </a>
+ </form>
+ </div>
 
 </html>

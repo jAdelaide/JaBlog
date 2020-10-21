@@ -1,5 +1,5 @@
 ---
-layout: 	default
+layout: 	certifiedPost
 title:  	AWS certified!
 date:   	2020-10-04
 categories: Posts Certification
