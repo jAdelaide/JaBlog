@@ -14,6 +14,7 @@
 {% seo %}
   </head>
 
+  <div id="content-desktop">
   <body>
     <header>
       <div class="inner">
@@ -23,6 +24,19 @@
         <h2 style="color:lightblue">{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
+  </div>
+
+  <div id="content-mobile">
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | absolute_url }}">
+           <h1 style="color:white">{{ site.title | default: site.github.repository_name }} Mobile</h1>
+        </a>
+        <h2 style="color:lightblue">{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+  </div>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
