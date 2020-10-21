@@ -2,6 +2,18 @@
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
 
+// Custom sidebar formatting for repositioned on mobiles
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px)
+{
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
