@@ -3,6 +3,7 @@ name: JaBlog CI
 on:
   push:
     branches:
+      - main
       - shove
   pull_request:
     branches: 
