@@ -25,10 +25,11 @@ body {
   background-image: url(../images/bgWaves.jpg);
   // background-size: height;
   background-size: contain;
+  background-size; cover;
   // min-width: 10%;
   background-repeat: no-repeat;
   background-position: top;
-  opacity: 0.9;
+  // opacity: 0.9;
 }
 
 p {
