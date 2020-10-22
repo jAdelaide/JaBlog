@@ -21,7 +21,11 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #fafafa url(../images/bgWaves.jpg) 0 0 repeat;
+  // background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background-image: url(../images/bgWaves.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 p {
