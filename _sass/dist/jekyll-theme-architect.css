@@ -758,6 +758,7 @@ header h2 {
 #main-content {
   float: left;
   width: 690px;
+  background: rgba(231, 185, 33, 0.35);
 }
 
 #main-content img {
