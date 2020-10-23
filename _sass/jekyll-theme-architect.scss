@@ -90,7 +90,7 @@ header h2 {
   padding: 5px;
   min-width: 300px;
   max-width: 700px;
-  background: rgba(231, 185, 33, 0.1);
+  background: rgba(231, 185, 33, 0.15);
   border-radius: 10px 100px 100px 10px;
 }
 
@@ -221,8 +221,8 @@ form {
   margin-bottom: 0;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
-  font-weight: normal;
-  color: #1d154d;
+  font-weight: bold;
+  color: #281d6b;
   text-indent: 6px;
   letter-spacing: -1px;
 }
@@ -240,7 +240,7 @@ form {
   // font-size: 22px;
   font-size: 18px;
   font-weight: bold;
-  color: #1d154d;
+  color: #281d6b;
   text-indent: 4px;
 }
 #main-content h2:before {
