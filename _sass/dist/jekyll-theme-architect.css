@@ -692,6 +692,11 @@ html {
   --colour-text: rgb(54, 54, 112);
 }
 
+html[data-theme=read] {
+  --bg: rgb(22, 3, 44);
+  --colour-text: rgb(179, 101, 144);
+}
+
 /* LAYOUT STYLES */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
