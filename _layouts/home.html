@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}" data-theme="graphic">
+  <!-- data-theme toggles between graphic and read mode -->
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,11 +25,35 @@
         <h2 style="color:lightblue">{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
 
+                          <!--        Toggle view mode              -->
       <div class="container" style="position: absolute; top: 200; right: 2%;">
         <div class="toggle-container">
           <input type="checkbox" id="switch" name="theme" /><label for="switch"> Easy read mode</label>
         </div>
       </div>
+
+      <script>
+
+        var checkbox = document.querySelector('input[name=theme]');
+
+        checkbox.addEventListener('change', function() {
+          if(this.checked) {
+            trans()
+            document.documentElement.setAttribute('data-theme', 'read')
+          } else {
+            trans()
+            document.documentElement.setAttribute('data-theme', 'graphic')
+          }
+        })
+
+        let trans = () => {
+          document.documentElement.classList.add('transition');
+          window.setTimeout(() => {
+            document.documentElement.classList.remove('transition')
+          }, 1000)
+        }
+
+      </script>
     </header>
   </div>
 
