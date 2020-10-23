@@ -757,7 +757,7 @@ header h2 {
 
 #main-content {
   float: left;
-  max-width: 700px;
+  width: 700px;
   background: rgba(231, 185, 33, 0.1);
 }
 
@@ -824,7 +824,7 @@ code, pre {
 
 code {
   padding: 0 3px;
-  background-color: #f2f8fc;
+  background-color: rgba(170, 170, 170, 0.2);
   border: solid 1px #dbe7f3;
 }
 
