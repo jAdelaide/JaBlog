@@ -38,7 +38,7 @@ body {
   // opacity: 0.9;
 }
 
-input [type=checkbox]{
+input[type=checkbox]{
   height: 0;
   width: 0;
   visibility: hidden;
@@ -88,6 +88,8 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+
+// ########################################################################################################
 p {
   margin-top: 0;
 }

@@ -707,7 +707,7 @@ body {
   background-position: top left;
 }
 
-input [type=checkbox] {
+input[type=checkbox] {
   height: 0;
   width: 0;
   visibility: hidden;
