@@ -687,19 +687,110 @@ th {
     display: block;
   }
 }
+html {
+  --bg: url(../images/bgWaves__03.jpg);
+  --bg-main-content: rgba(221, 189, 83, 0.2);
+  --colour-text: rgb(54, 54, 112);
+  --size-text: 15px;
+  --line-height: 1.5;
+  --bg-sidebar: rgba(233, 150, 122, 0.4);
+  --size-code: 13px;
+  --size-h1: 45px;
+  --size-h2: 18px;
+  --size-h3: 13px;
+  --size-h4: 15px;
+  --size-h5: 14px;
+  --size-h6: 13px;
+  --colour-h1: #481d6b;
+  --colour-h2: #281d6b;
+  --colour-h3: #481d6b;
+  --colour-h4: #1d154d;
+}
+
+html[data-theme=read] {
+  --bg: rgb(22, 3, 44);
+  --bg-main-content: rgba(0, 0, 0, 0);
+  --colour-text: rgb(179, 101, 144);
+  --size-text: 20px;
+  --line-height: 3;
+  --size-code: 18px;
+  --size-h1: 45px;
+  --size-h2: 23px;
+  --size-h3: 18px;
+  --size-h4: 20px;
+  --size-h5: 19px;
+  --size-h6: 18px;
+  --colour-h1: #7c797e;
+  --colour-h2: #69686e;
+  --colour-h3: #6c686e;
+  --colour-h4: #57565a;
+}
+
 /* LAYOUT STYLES */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 15px;
+  font-size: var(--size-text);
   font-weight: 400;
-  line-height: 1.5;
-  color: #363670;
-  background-image: url(../images/bgWaves__03.jpg);
+  line-height: var(line-height);
+  color: var(--colour-text);
+  background: var(--bg);
   background-size: cover;
   min-width: 3126;
   min-height: 5016;
   background-repeat: no-repeat;
   background-position: top left;
+}
+
+input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: alias;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: #00d100;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: #008c00;
+  border: 1px;
+  border-color: white;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #004600;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 45px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
 }
 
 p {
@@ -760,7 +851,7 @@ header h2 {
   padding: 5px;
   min-width: 300px;
   max-width: 700px;
-  background: rgba(221, 189, 83, 0.2);
+  background: var(--bg-main-content);
   border-radius: 10px 100px 100px 10px;
 }
 
@@ -775,7 +866,7 @@ aside#sidebar {
   padding-left: 10px;
   font-size: 12px;
   line-height: 1.3;
-  background: rgba(233, 150, 122, 0.4);
+  background: var(--bg-sidebar);
   border-radius: 30% 100%/300%;
 }
 
@@ -823,7 +914,7 @@ aside a.button {
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-size: var(--size-code);
   color: #222;
 }
 
@@ -886,9 +977,9 @@ form {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 2.8em;
+  font-size: var(--size-h1);
   font-weight: normal;
-  color: #481d6b;
+  color: var(--colour-h1);
   text-indent: 6px;
   letter-spacing: -1px;
 }
@@ -903,9 +994,9 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 18px;
+  font-size: var(--size-h2);
   font-weight: bold;
-  color: #281d6b;
+  color: var(colour-h2);
   text-indent: 4px;
 }
 
@@ -920,9 +1011,9 @@ form {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 13px;
+  font-size: var(--size-h3);
   font-weight: bold;
-  color: #481d6b;
+  color: var(--colour-h3);
   text-indent: 3px;
 }
 
@@ -936,9 +1027,9 @@ form {
 #main-content h4 {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 15px;
+  font-size: var(--size-h4);
   font-weight: bold;
-  color: #1d154d;
+  color: var(--colour-h4);
   text-indent: 3px;
 }
 
@@ -952,8 +1043,8 @@ h4:before {
 #main-content h5 {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 14px;
-  color: #1d154d;
+  font-size: var(--size-h5);
+  color: var(--colour-h4);
   text-indent: 3px;
 }
 
@@ -967,8 +1058,8 @@ h5:before {
 #main-content h6 {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-size: 0.8em;
-  color: #1d154d;
+  font-size: var(--size-h6);
+  color: var(--colour-h4);
   text-indent: 3px;
 }
 
