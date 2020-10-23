@@ -832,16 +832,17 @@ pre {
   padding: 10px;
   overflow: auto;
   text-shadow: none;
-  background: rgba(247, 255, 142, 0.678);
-  border: solid 1px #f2f2f2;
+  background: rgba(249, 255, 165, 0.678);
+  border: solid 1px #6bfff84d;
   border-radius: 25px;
 }
 
 pre code {
   padding: 0;
   color: #2879d0;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(249, 255, 165, 0.678);
   border: none;
+  border-radius: 25px;
 }
 
 ul, ol, dl {
