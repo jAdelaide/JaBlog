@@ -696,8 +696,8 @@ body {
   color: #666;
   background-image: url(../images/bgWaves__03.jpg);
   background-size: cover;
-  width: 3126;
-  height: 5016;
+  min-width: 3126;
+  min-height: 5016;
   background-repeat: no-repeat;
   background-position: top left;
 }
