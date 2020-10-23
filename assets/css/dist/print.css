@@ -1,7 +1,5 @@
----
----
-
-html, body, div, span, applet, object, iframe,
+--- --- html,
+body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,31 +19,38 @@ time, mark, audio, video {
   vertical-align: baseline;
   border: 0;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
+
 table {
   border-spacing: 0;
   border-collapse: collapse;
 }
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 13px;
   line-height: 1.5;
   color: #000;
@@ -76,9 +81,11 @@ header h2 {
   color: #aaa;
   letter-spacing: -1px;
 }
+
 #downloads {
   display: none;
 }
+
 #main_content {
   padding-top: 20px;
 }
@@ -102,6 +109,7 @@ pre {
   border: solid 1.5px #6bfff84d;
   border-radius: 25px;
 }
+
 pre code {
   padding: 0;
 }
@@ -110,9 +118,7 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
-
 /* COMMON STYLES */
-
 table {
   width: 100%;
   border: 1px solid #ebebeb;
@@ -131,12 +137,9 @@ td {
 form {
   padding: 20px;
   background: #f2f2f2;
-
 }
 
-
 /* GENERAL ELEMENT TYPE STYLES */
-
 h1 {
   font-size: 2.8em;
 }
@@ -167,7 +170,7 @@ h5 {
 }
 
 h6 {
-  font-size: .8em;
+  font-size: 0.8em;
   color: #303030;
 }
 
@@ -226,9 +229,17 @@ footer a {
   height: 0;
   clear: both;
   visibility: hidden;
-  content: '.';
+  content: ".";
 }
 
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
