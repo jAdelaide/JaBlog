@@ -17,6 +17,8 @@
 html {
   --bg: url(../images/bgWaves__03.jpg);
   --colour-text: rgb(54, 54, 112);
+  --size-text: 15px;
+  --line-height: 1.5;
 }
 
 html[data-theme='read'] {
@@ -27,9 +29,9 @@ html[data-theme='read'] {
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
+  font-size: var(--size-text);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: var(line-height);
   // color: #666;
   color: var(--colour-text);
   // background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
@@ -66,7 +68,7 @@ label:after {
   left: 3px;
   width: 20px;
   height: 20px;
-  background: #ff00aa;
+  background: #7c0053;
   border-radius: 90px;
   transition: 0.3s;
 }
