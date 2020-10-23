@@ -759,7 +759,7 @@ header h2 {
   float: left;
   width: 700px;
   background: rgba(231, 185, 33, 0.1);
-  border-radius: 10% 25%;
+  border-radius: 10px 35px;
 }
 
 #main-content img {
