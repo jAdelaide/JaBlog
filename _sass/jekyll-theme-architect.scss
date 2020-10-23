@@ -156,7 +156,7 @@ code {
 }
 
 pre {
-  padding: 10px;
+  // padding: 10px;
   overflow: auto;
   text-shadow: none;
   background: rgba(249, 255, 165, 0.678);
@@ -166,7 +166,7 @@ pre {
 pre code {
   padding: 0;
   color: #2879d0;
-  background-color: rgba(249, 255, 165, 0.678);
+  background-color: rgba(249, 255, 165, 0);
   border: none;
   border-radius: 25px;
 }
