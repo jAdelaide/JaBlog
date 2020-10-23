@@ -697,6 +697,8 @@ html {
 html[data-theme=read] {
   --bg: rgb(22, 3, 44);
   --colour-text: rgb(179, 101, 144);
+  --size-text: 18px;
+  --line-height: 2;
 }
 
 /* LAYOUT STYLES */
