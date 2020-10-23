@@ -688,7 +688,7 @@ th {
   }
 }
 html {
-  --bg: url(../images/bgWaves__03.jpg);
+  --bg: rgba(0, 0, 0, 0);
   --colour-text: rgb(54, 54, 112);
   --size-text: 15px;
   --line-height: 1.5;
@@ -697,7 +697,7 @@ html {
 html[data-theme=read] {
   --bg: rgb(22, 3, 44);
   --colour-text: rgb(179, 101, 144);
-  --size-text: 18px;
+  --size-text: 20px;
   --line-height: 2;
 }
 
@@ -709,6 +709,7 @@ body {
   line-height: var(line-height);
   color: var(--colour-text);
   background: var(--bg);
+  background-image: url(../images/bgWaves__03.jpg);
   background-size: cover;
   min-width: 3126;
   min-height: 5016;
