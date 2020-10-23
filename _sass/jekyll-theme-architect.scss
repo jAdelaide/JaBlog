@@ -90,7 +90,8 @@ header h2 {
   padding: 5px;
   min-width: 300px;
   max-width: 700px;
-  background: rgba(231, 185, 33, 0.15);
+  // background: rgba(231, 185, 33, 0.15);
+  background: rgba(221, 189, 83, 0.15);
   border-radius: 10px 100px 100px 10px;
 }
 
@@ -221,7 +222,7 @@ form {
   margin-bottom: 0;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
-  font-weight: bold;
+  font-weight: normal;
   color: #281d6b;
   text-indent: 6px;
   letter-spacing: -1px;
