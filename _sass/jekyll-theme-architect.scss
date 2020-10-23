@@ -86,7 +86,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 700px;
+  max-width: 700px;
   background: rgba(231, 185, 33, 0.1);
   border-radius: 10px 100px 100px 10px;
 }
@@ -163,7 +163,7 @@ pre {
   overflow: auto;
   text-shadow: none;
   background: rgba(249, 255, 165, 0.678);
-  border: solid 1px #6bfff84d;
+  border: solid 1.5px #6bfff84d;
   border-radius: 25px;
 }
 pre code {
@@ -171,7 +171,6 @@ pre code {
   color: #2879d0;
   background-color: rgba(249, 255, 165, 0);
   border: none;
-  border-radius: 25px;
 }
 
 ul, ol, dl {
