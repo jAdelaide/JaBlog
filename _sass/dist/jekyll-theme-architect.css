@@ -888,7 +888,7 @@ form {
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 2.8em;
   font-weight: normal;
-  color: #181027;
+  color: #1d154d;
   text-indent: 6px;
   letter-spacing: -1px;
 }
@@ -922,7 +922,7 @@ form {
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 13px;
   font-weight: bold;
-  color: #0f0d1d;
+  color: #1d154d;
   text-indent: 3px;
 }
 
@@ -938,7 +938,7 @@ form {
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
-  color: #474747;
+  color: #1d154d;
   text-indent: 3px;
 }
 
@@ -953,7 +953,7 @@ h4:before {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 14px;
-  color: #474747;
+  color: #1d154d;
   text-indent: 3px;
 }
 
@@ -968,7 +968,7 @@ h5:before {
   margin-bottom: 8px;
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 0.8em;
-  color: #474747;
+  color: #1d154d;
   text-indent: 3px;
 }
 
@@ -1017,7 +1017,7 @@ dl dd {
 
 footer {
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   margin-top: 40px;
   font-size: 13px;
   color: rgba(255, 66, 224, 0.603);
