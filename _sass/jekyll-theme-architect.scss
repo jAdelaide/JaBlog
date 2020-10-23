@@ -39,7 +39,7 @@ a {
   color: #2879d0;
 }
 a:hover {
-  color: #6509ce;
+  color: #400286;
 }
 
 header {
@@ -48,7 +48,7 @@ header {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   // background: #d17dd1 url(https://raw.githubusercontent.com/jAdelaide/-JaBlog-/shove/assets/images/header-bg.jpg) 0 0 repeat-x;
   background: #b681b6;
-  border-bottom: solid 2px #a11f90;
+  border-bottom: solid 3px #a11f90;
 }
 
 header h1 {
@@ -87,7 +87,8 @@ header h2 {
 #main-content {
   float: left;
   width: 700px;
-  background: rgba(231, 185, 33, 0.1)
+  background: rgba(231, 185, 33, 0.1);
+  border-radius: 10% 25%;
 }
 
 #main-content img {
