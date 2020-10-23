@@ -835,7 +835,7 @@ code {
 
 pre {
   padding: 15px;
-  overflow: auto;
+  overflow: hidden;
   text-shadow: none;
   background: rgba(249, 255, 165, 0.678);
   border: solid 1.5px #6bfff84d;
