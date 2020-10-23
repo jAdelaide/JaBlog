@@ -15,7 +15,7 @@
 }
 
 html {
-  --bg: rgba(0, 0, 0, 0);
+  --bg: url(../images/bgWaves__03.jpg);
   --colour-text: rgb(54, 54, 112);
   --size-text: 15px;
   --line-height: 1.5;
@@ -38,7 +38,6 @@ body {
   color: var(--colour-text);
   // background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
   background: var(--bg);
-  background-image: url(../images/bgWaves__03.jpg);
   background-size: cover;
   min-width: 3126;
   min-height: 5016;
