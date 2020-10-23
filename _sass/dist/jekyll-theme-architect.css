@@ -759,7 +759,7 @@ header h2 {
   float: left;
   width: 700px;
   background: rgba(231, 185, 33, 0.1);
-  border-radius: 10px 40px 40px 10px;
+  border-radius: 10px 50px 50px 10px;
 }
 
 #main-content img {
@@ -831,7 +831,7 @@ code {
 }
 
 pre {
-  padding: 20px;
+  padding: 15px;
   overflow: auto;
   text-shadow: none;
   background: rgba(249, 255, 165, 0.678);
@@ -877,7 +877,7 @@ td {
 
 form {
   padding: 20px;
-  background: rgba(233, 150, 122, 0.4);
+  background: #ff4000;
 }
 
 /* GENERAL ELEMENT TYPE STYLES */
@@ -1019,7 +1019,7 @@ footer {
   padding-bottom: 30px;
   margin-top: 40px;
   font-size: 13px;
-  color: #aaa;
+  color: rgba(255, 66, 224, 0.603);
 }
 
 footer a {
@@ -1082,8 +1082,8 @@ footer a:hover {
 #main-content h4:before,
 #main-content h5:before,
 #main-content h6:before {
-    padding-right: 0;
-    margin-left: 0;
+    padding-right: 5px;
+    margin-left: 5px;
     content: none;
   }
 }
