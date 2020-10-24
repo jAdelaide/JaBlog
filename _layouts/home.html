@@ -34,25 +34,14 @@
 
       <script>
 
-        var checkbox = document.querySelector('input[name=theme]');
+        var checkbox = document.querySelector('input[name=theme');
+        document.getElementById("graphic").addEventListener("click", changeTheme);
+        document.getElementById("read").addEventListener("click", changeTheme);
 
-        checkbox.addEventListener('change', function() {
-          if(this.checked) {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'read')
-          } else {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'graphic')
-          }
-        })
-
-        let trans = () => {
-          document.documentElement.classList.add('transition');
-          window.setTimeout(() => {
-            document.documentElement.classList.remove('transition')
-          }, 1000)
+        function changeTheme() {
+          trans()
+          document.documentElement.setAttribute('data-theme', this.id)
         }
-
       </script>
     </header>
   </div>

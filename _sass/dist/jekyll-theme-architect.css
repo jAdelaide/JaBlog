@@ -771,7 +771,6 @@ label:after {
   height: 20px;
   background: #008c00;
   border: 1px;
-  border-color: white;
   border-radius: 90px;
   transition: 0.3s;
 }
