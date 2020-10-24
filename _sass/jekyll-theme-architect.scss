@@ -23,6 +23,7 @@ html {
   --bg-sidebar: rgba(233, 150, 122, 0.4);
   --size-code: 13px;
   --colour-code: #222;
+  --colour-code-background: rgba(179, 179, 179, 0.3);
   --size-h1: 45px;
   --colour-h1: #481d6b;
   --size-h2: 18px;
@@ -43,6 +44,7 @@ html[data-theme='read'] {
   --line-height: 3;
   --size-code: 18px;
   --colour-code: rgb(230, 164, 164);
+  --colour-code-background: rgba(41, 41, 41, 0.3);
   --size-h1: 45px;
   --colour-h1: #977da8;
   --size-h2: 23px;
@@ -252,7 +254,7 @@ code, pre {
 
 code {
   padding: 0 3px;
-  background-color: rgba(179, 179, 179, 0.3);
+  background-color: var(--colour-code-background);
   border: solid 1px rgba(129, 129, 129, 0.2);
 }
 
