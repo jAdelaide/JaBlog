@@ -32,17 +32,16 @@
         </div>
       </div>
 
-      <!-- <script>
+      <script>
+        $("#toggle-container :checkbox").on("change", function(){
+          alert("Now viewing in" + this.id + "mode");
+        });
 
-        // var checkbox = document.querySelector('input[name=theme');
-        // document.getElementById("graphic").addEventListener("click", changeTheme);
-        // document.getElementById("read").addEventListener("click", changeTheme);
+        localStorage.setItem("data-theme", "read");
 
-        // function changeTheme() {
-        //   trans()
-        //   document.documentElement.setAttribute('data-theme', this.id)
-        // }
-      </script> -->
+        console.log(localStorage.getItem("data-theme"));
+
+      </script>
     </header>
   </div>
 
