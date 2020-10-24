@@ -22,16 +22,17 @@ html {
   --line-height: 1.5;
   --bg-sidebar: rgba(233, 150, 122, 0.4);
   --size-code: 13px;
+  --colour-code: #222;
   --size-h1: 45px;
+  --colour-h1: #481d6b;
   --size-h2: 18px;
+  --colour-h2: #281d6b;
   --size-h3: 13px;
+  --colour-h3: #481d6b;
   --size-h4: 15px;
+  --colour-h4: #1d154d;
   --size-h5: 14px;
   --size-h6: 13px;
-  --colour-h1: #481d6b;
-  --colour-h2: #281d6b;
-  --colour-h3: #481d6b;
-  --colour-h4: #1d154d;
 }
 
 html[data-theme='read'] {
@@ -41,16 +42,17 @@ html[data-theme='read'] {
   --size-text: 20px;
   --line-height: 3;
   --size-code: 18px;
+  --colour-code: rgb(126, 126, 126);
   --size-h1: 45px;
+  --colour-h1: #977da8;
   --size-h2: 23px;
+  --colour-h2: #837aaf;
   --size-h3: 18px;
+  --colour-h3: #a68eb3;
   --size-h4: 20px;
+  --colour-h4: #938da5;
   --size-h5: 19px;
   --size-h6: 18px;
-  --colour-h1: #7c797e;
-  --colour-h2: #69686e;
-  --colour-h3: #6c686e;
-  --colour-h4: #57565a;
 }
 
 /* LAYOUT STYLES */
@@ -245,7 +247,7 @@ code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: var(--size-code);
-  color: #222;
+  color: var(--colour-code);
 }
 
 code {
