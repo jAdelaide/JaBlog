@@ -17,6 +17,7 @@
 html {
   --bg: url(../images/bgWaves__03.jpg);
   --bg-main-content: rgba(221, 189, 83, 0.2);
+  --bg-pre:  rgba(249, 255, 165, 0.678);
   --colour-text: rgb(54, 54, 112);
   --size-text: 15px;
   --line-height: 1.5;
@@ -39,6 +40,7 @@ html {
 html[data-theme='read'] {
   --bg: rgb(22, 3, 44);
   --bg-main-content: rgba(0, 0, 0, 0);
+  --bg-pre:  rgb(251, 255, 196);
   --colour-text: rgb(179, 101, 144);
   --size-text: 20px;
   --line-height: 4;
@@ -262,7 +264,7 @@ pre {
   padding: 20px;
   overflow: auto;
   text-shadow: none;
-  background: rgba(249, 255, 165, 0.678);
+  background: var(--bg-pre);
   border: solid 2px #6bfff84d;
   border-radius: 25px;
 }
