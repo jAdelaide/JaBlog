@@ -714,7 +714,7 @@ html[data-theme=read] {
   --bg-main-content: rgba(0, 0, 0, 0);
   --colour-text: rgb(179, 101, 144);
   --size-text: 20px;
-  --line-height: 3;
+  --line-height: 4;
   --size-code: 18px;
   --colour-code: rgb(230, 164, 164);
   --colour-code-background: rgba(41, 41, 41, 0.3);
@@ -763,7 +763,7 @@ label {
 }
 
 label:after {
-  content: "easy read mode";
+  content: "";
   position: absolute;
   top: 3px;
   left: 3px;
