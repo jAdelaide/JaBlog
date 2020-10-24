@@ -28,33 +28,10 @@
                           <!--        Toggle view mode              -->
       <div class="container" style="position: absolute; top: 200; right: 2%;">
         <div class="toggle-container">
-          <input type="checkbox" id="switch" name="theme" /><label for="switch"> Easy read mode</label>
+          <label for="switch"> Easy read mode</label>
+          <input type="checkbox" id="switch" name="theme" />
         </div>
       </div>
-
-      <script>
-        $("#toggle-container :checkbox").on("change", function(){
-          alert("Now viewing in" + this.id + "mode");
-        });
-
-        localStorage.setItem("data-theme", "read");
-
-        console.log(localStorage.getItem("data-theme"));
-
-        var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {};
-        var $checkboxes = $("#checkbox-container : checkbox");
-
-        $checkboxes.on("change", function(){
-          $checkboxes.each(function(){
-            checkboxValues[this.id] = this.checked;
-          });
-          localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
-        });
-
-        $.each(checkboxValues, function(key, value) {
-          $("#" + key).prop('checked', value);
-        });
-      </script>
     </header>
   </div>
 
@@ -75,28 +52,6 @@
         </div>
       </div>
 
-      <script>
-
-        var checkbox = document.querySelector('input[name=theme]');
-
-        checkbox.addEventListener('change', function() {
-          if(this.checked) {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'read')
-          } else {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'graphic')
-          }
-        })
-
-        let trans = () => {
-          document.documentElement.classList.add('transition');
-          window.setTimeout(() => {
-            document.documentElement.classList.remove('transition')
-          }, 1000)
-        }
-
-      </script>
     </header>
   </div>
 

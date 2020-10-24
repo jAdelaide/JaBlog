@@ -32,28 +32,6 @@
         </div>
       </div>
 
-      <script>
-
-        var checkbox = document.querySelector('input[name=theme]');
-
-        checkbox.addEventListener('change', function() {
-          if(this.checked) {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'read')
-          } else {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'graphic')
-          }
-        })
-
-        let trans = () => {
-          document.documentElement.classList.add('transition');
-          window.setTimeout(() => {
-            document.documentElement.classList.remove('transition')
-          }, 1000)
-        }
-
-      </script>
     </header>
   </div>
 
@@ -75,28 +53,6 @@
         </div>
       </div>
 
-      <script>
-
-        var checkbox = document.querySelector('input[name=theme]');
-
-        checkbox.addEventListener('change', function() {
-          if(this.checked) {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'read')
-          } else {
-            trans()
-            document.documentElement.setAttribute('data-theme', 'graphic')
-          }
-        })
-
-        let trans = () => {
-          document.documentElement.classList.add('transition');
-          window.setTimeout(() => {
-            document.documentElement.classList.remove('transition')
-          }, 1000)
-        }
-
-      </script>
     </header>
   </div>
 
