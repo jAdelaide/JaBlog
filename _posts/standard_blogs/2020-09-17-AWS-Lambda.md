@@ -2,7 +2,7 @@
 layout: 	default
 title:  	AWS Lambda
 date:   	2020-09-17
-categories: 	Posts Coding
+categories: Posts Coding
 author: 	Jordan
 permalink: 	/Mary-has-a-little-Lambda
 ---
