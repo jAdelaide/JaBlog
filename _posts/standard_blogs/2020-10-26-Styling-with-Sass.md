@@ -24,4 +24,5 @@ I don't know if it's just me, but the last few days I've really been noticing ho
 Stay safe, appreciate nature and I'll see next time,
 
 ¡JaBlog!
+
 [back](./)
