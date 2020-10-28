@@ -22,5 +22,6 @@ Obviously I haven't mastered CSS in the week I've been using it, but I am very h
 I don't know if it's just me, but the last few days I've really been noticing how colourful and pretty the clouds look, I feel like they have a lot more reds, blues and purples than I've ever noticed before, I've always just thought clouds are white or grey.
 
 Stay safe, appreciate nature and I'll see next time,
+
 ¡JaBlog!
 [back](./)
