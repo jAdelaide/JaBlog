@@ -688,7 +688,7 @@ th {
   }
 }
 html {
-  --bg: url(../images/bgWaves__03.jpg);
+  --bg: url(https://raw.githubusercontent.com/jAdelaide/-JaBlog-/shove/assets/images/bgWaves__03-min.jpg);
   --bg-main-content: rgba(221, 189, 83, 0.2);
   --bg-pre: rgba(249, 255, 165, 0.678);
   --colour-text: rgb(54, 54, 112);
