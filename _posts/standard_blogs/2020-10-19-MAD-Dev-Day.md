@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     devDay
 title:      AWS MAD DevDay
 date:       2020-10-15
 category:   Posts Development
